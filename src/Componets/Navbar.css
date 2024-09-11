@@ -1,0 +1,56 @@
+/* Navbar Styles */
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Center the navbar-content within the navbar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for Navbar Content */
+.navbar-content {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo Image */
+.gather-logo {
+    height: 50px;
+}
+
+/* Navbar Options */
+.navbar-options-container {
+    display: flex;
+   gap: 30px; /* Space between nav items */
+   margin-left: 453px;
+
+}
+
+.navbar-options-container li {
+    color: #4c32a8;
+    font-size: 18px;
+    list-style: none;
+    
+   
+
+}
+
+.navbar-options-container li:hover {
+    border-bottom: 2px solid #4c32a8;
+}
+
+/* Links */
+.link {
+    text-decoration: none;
+    color: inherit; /* Ensure the link color is inherited from parent */
+}

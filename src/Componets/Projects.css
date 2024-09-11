@@ -1,0 +1,64 @@
+.projects-container {
+    padding: 20px;
+    text-align: center; /* Center-aligns the header */
+}
+
+.projects-header {
+   font-size:30px; /* Adjust size as needed */
+    color: #ff7a00; /* Change to desired color */
+    margin-bottom: -59px;
+    margin-top: -7px;
+    
+    font-weight: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-gap:20px; /* Space between grid items */
+    padding: 100px; 
+    margin-top: -110px; /* Space around the grid */
+}
+
+.grid-item img {
+    width:100% ;/* Make image fill the grid item */
+    height:100%; /* Maintain aspect ratio */
+   /* Remove bottom space */
+}
+
+/* Optional: Styling for a better look */
+.grid-item {
+    border: 1px solid #ddd; /* Border around each image */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowed content */
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.projects-title h1 {
+    font-size: 30px;
+    color: #ff7a00;
+    font-weight: normal;
+}
+
+.line {
+    width: 80px;
+    height: 1px;
+    background-color: #000;
+}
+
+  
+
+  
+  
+  
+
+  
+
+  
